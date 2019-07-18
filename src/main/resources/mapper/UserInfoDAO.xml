@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.xudaweb.springbootes.dao.UserInfoDAO">
+  <resultMap id="BaseResultMap" type="com.xudaweb.springbootes.dovalue.UserInfoDO">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="BIGINT" property="id" />
+    <result column="member_id" jdbcType="VARCHAR" property="memberId" />
+    <result column="out_user_id" jdbcType="BIGINT" property="outUserId" />
+    <result column="out_org_id" jdbcType="INTEGER" property="outOrgId" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+    <result column="mobile" jdbcType="BIGINT" property="mobile" />
+    <result column="id_number" jdbcType="VARCHAR" property="idNumber" />
+    <result column="pay_pwd" jdbcType="VARCHAR" property="payPwd" />
+    <result column="free_pay_pwd" jdbcType="INTEGER" property="freePayPwd" />
+    <result column="authed" jdbcType="INTEGER" property="authed" />
+    <result column="idcard_front_url" jdbcType="VARCHAR" property="idcardFrontUrl" />
+    <result column="idcard_back_url" jdbcType="VARCHAR" property="idcardBackUrl" />
+    <result column="gmt_created" jdbcType="TIMESTAMP" property="gmtCreated" />
+    <result column="gmt_modify" jdbcType="TIMESTAMP" property="gmtModify" />
+    <result column="is_delete" jdbcType="BIGINT" property="isDelete" />
+    <result column="account_type" jdbcType="INTEGER" property="accountType" />
+    <result column="transfer" jdbcType="INTEGER" property="transfer" />
+    <result column="extend_01" jdbcType="VARCHAR" property="extend01" />
+    <result column="extend_02" jdbcType="VARCHAR" property="extend02" />
+  </resultMap>
+</mapper>
